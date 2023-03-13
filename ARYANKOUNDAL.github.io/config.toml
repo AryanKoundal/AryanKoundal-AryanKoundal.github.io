@@ -1,0 +1,52 @@
+baseURL = "https://AryanKoundal.github.io/"languageCode = 'en-us'
+languageCode = "en-us"
+title = "Aryan Koundal"
+copyright = "© Aryan Koundal"
+
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+enableEmoji = true
+
+[params]
+	mode = "toggle"
+  og_image = "https://raw.githubusercontent.com/athul/archie/master/images/archie-dark.png"
+	useCDN = true
+  favicon = "https://images.assetsdelivery.com/compings_v2/uasumy/uasumy1503/uasumy150300032.jpg" 
+  sitename = "Arka's Personal website"
+  description = "Arkaprabha Chakraborty's Personal Website"
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/AryanKoundal"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/AryanKoundal_"
+
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/AryanKoundal"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/aryan-koundal-5b217b202/"
+
+
+
+[[menu.main]]
+name = "Blogs"
+url = "/blog"
+weight = 2
+
+[[menu.main]]
+name = "Projects"
+url = "/posts"
+weight = 3
